@@ -29,7 +29,7 @@
 }
 
 .navbar .nav-link.active {
-    background-color: #fff
+    background-color: #fff;
     color: #000 !important;
 }
 
