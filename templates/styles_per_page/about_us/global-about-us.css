@@ -149,6 +149,18 @@
   margin-bottom: 0.5rem;
 }
 
+/*===== HIDE =====*/
+
+.division__btn.active {
+  background: #00bcd4; /* Atau warna lain yang Anda inginkan untuk tombol aktif */
+  color: #000;
+  transform: scale(1.05);
+}
+
+.division__block.hide {
+  display: none; /* Baris ini SANGAT PENTING untuk menyembunyikan elemen */
+}
+
 /*===== POSITIONING =====*/
 
 .object-top {
