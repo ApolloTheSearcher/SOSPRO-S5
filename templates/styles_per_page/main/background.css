@@ -1,3 +1,15 @@
+.root {
+    color-scheme: dark;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.rounded-4 { 
+    border-radius: 1.5rem !important; 
+} 
+
 .bg-gradient-custom-main1
 {
     background: linear-gradient(180deg, #2F0851, #74068B);
