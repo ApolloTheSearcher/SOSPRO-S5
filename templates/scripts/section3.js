@@ -46,9 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
         filterBlocks(defaultFilter); // Sembunyikan semua blok KECUALI blok Manajemen
     }
 
-    // =======================================================
-    // BAGIAN 2: FUNGSI MODAL (POPUP) BARU
-    // =======================================================
     const memberCards = document.querySelectorAll('.member-card');
     const modalOverlay = document.querySelector('.modal-overlay');
     const modalCloseBtn = document.querySelector('.modal-close');
