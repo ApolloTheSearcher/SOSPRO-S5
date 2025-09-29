@@ -10,19 +10,38 @@
 
 .hero-box {
   font-family: "UniNeue";
-  margin: 1cm 1cm 1cm 1cm;
-  background: #28007D;
-  padding: 5cm 1cm 5cm 1cm;
-  border-radius: 30px;
+  margin: 0cm 1cm 1cm 1cm;
+  background: #310c81;
+  padding: 4cm 1cm 3cm 2cm;
+  border-radius: 20px;
   color:#fff;
   font-size: 20px;
+  display: flex;
+  box-shadow: 0px 10px 30px #21003E;
 }
+
+.hero-box-left{
+  width: 50%;
+
+}
+
+.hero-box-right{
+  width: 50%;
+}
+
+.hero-box-right img{
+  width: 90%;
+  height: auto;
+  padding-left: 2.5cm;
+  align-content: flex-end;
+}
+
 .hero-headline{
-  margin: -2cm 0cm -2.5cm 0cm;
+  margin: -1cm 0cm -2cm 0cm;
 }
 .hero-headline img {
   flex: 1;
-  max-width: 50%; 
+  max-width: 90%; 
   height: auto; 
 }
 
@@ -34,26 +53,25 @@
   line-height: 1.6;
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
-  padding: 3rem 1.5rem;
 }
 
 .event {
   display: flex;
-  gap: 1.5rem;
   align-items: center;
-  margin: 100px;
+  margin: 1.2cm;
 }
+
 .event.reverse {
   flex-direction: row-reverse;
 }
 
-.event .img {
-  flex: 1;
-  min-height: 300px;
-  width: auto;
-  background: #bbb;
-  border-radius: 8px;
+.event img {
+  flex: 0 0 auto;
+  width: 17cm;
+  height: 12cm;
+  object-fit: cover;   /* crops nicely if aspect ratio differs */
+  border-radius: 20px;
+  margin-right: 1cm;
 }
 .event .info {
   font-size: 20px;
@@ -63,7 +81,6 @@
 .event .info h3 {
   font-family: "Request";
   font-size: 70px;
-  margin: 0cm, 0cm, 1cm, 0cm;
 }
 
 /* Responsive */
